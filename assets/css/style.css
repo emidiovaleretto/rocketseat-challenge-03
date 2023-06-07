@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: #efefef;
+}
+
+.header-container {
+  background-color: #535971;
+}
+
+.main-container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+h1,
+legend {
+  font-family: "Staatliches", sans-serif;
+}
+
+.main-container h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #fff;
+
+  padding-top: 140px;
+  margin-bottom: 16px;
+}
+
+.main-container p {
+  font-size: 1.25rem;
+  color: #fff;
+
+  width: 420px;
+  padding-bottom: 180px;
+}
