@@ -9,6 +9,15 @@ body {
   background-color: #efefef;
 }
 
+fieldset {
+  border: none;
+}
+
+h1,
+legend {
+  font-family: "Staatliches", sans-serif;
+}
+
 .header-container {
   background-color: #535971;
 }
@@ -18,16 +27,10 @@ body {
   margin: 0 auto;
 }
 
-h1,
-legend {
-  font-family: "Staatliches", sans-serif;
-}
-
 .main-container h1 {
   font-size: 3rem;
   line-height: 3rem;
   color: #fff;
-
   padding-top: 140px;
   margin-bottom: 16px;
 }
@@ -35,7 +38,29 @@ legend {
 .main-container p {
   font-size: 1.25rem;
   color: #fff;
-
   width: 420px;
-  padding-bottom: 180px;
+  padding-bottom: 160px;
+}
+
+.form-wrapper {
+  background-color: #fff;
+  padding: 64px;
+  border-radius: 20px 20px 0 0;
+  margin-top: -120px;
+}
+
+footer {
+  background-color: #535971;
+  padding: 60px 80px;
+  border-radius: 0 0 20px 20px;
+}
+
+footer input {
+  padding: 15px 40px;
+  background: #ff5374;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  width: 600px;
 }
