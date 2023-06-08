@@ -87,6 +87,10 @@ legend {
   border-radius: 8px;
 }
 
+.input-fields-wrapper input:focus {
+  outline: 1px solid #535971;
+}
+
 .cols-3 {
   display: flex;
   gap: 16px;
@@ -128,4 +132,9 @@ footer input {
   font-weight: 700;
   border: none;
   width: 600px;
+}
+
+footer input:hover {
+  background: #d84160;
+  transition: all 0.2s;
 }
