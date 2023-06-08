@@ -27,12 +27,16 @@
         <div class="form-wrapper">
           <fieldset>
             <legend>Personal information</legend>
-            <div class="input-fields-wrapper cols-2">
-              <label for="input-name">Name</label>
-              <input type="text" name="input-name" id="input-name">
+            <div class="cols-2">
+              <div class="input-fields-wrapper">
+                <label for="input-name">Name</label>
+                <input type="text" name="input-name" id="input-name">
+              </div>
 
-              <label for="input-surname">Surname</label>
-              <input type="text" name="input-surname" id="input-surname">
+              <div class="input-fields-wrapper">
+                <label for="input-surname">Surname</label>
+                <input type="text" name="input-surname" id="input-surname">
+              </div>
             </div>
 
             <div class="input-fields-wrapper">
@@ -56,46 +60,42 @@
 
           <fieldset>
             <legend>Your available times</legend>
-            <fieldset>
-              <legend>Second mentorship</legend>
-              <div class="cols-3">
-                <div class="input-fields-wrapper">
-                  <label for="input-date-first">Date <span>(DD/MM/YYYY)</span></label>
-                  <input type="date" name="input-date" id="input-date-first">
-                </div>
 
-                <div class="input-fields-wrapper">
-                  <label for="input-from-first">From</label>
-                  <input type="time" name="input-from-first" id="input-from-first">
-                </div>
-
-                <div class="input-fields-wrapper">
-                  <label for="input-to-first">To</label>
-                  <input type="time" name="input-to-first" id="input-to-first">
-                </div>
+            <h2>First mentorship</h2>
+            <div class="cols-3">
+              <div class="input-fields-wrapper">
+                <label for="input-date-first">Date <span>(DD/MM/YYYY)</span></label>
+                <input type="date" name="input-date" id="input-date-first">
               </div>
-            </fieldset>
 
-            <fieldset>
-              <legend>Second mentorship</legend>
-
-              <div class="cols-3">
-                <div class="input-fields-wrapper">
-                  <label for="input-date-second">Date <span>(DD/MM/YYYY)</span></label>
-                  <input type="date" name="input-date-second" id="input-date-second">
-                </div>
-
-                <div class="input-fields-wrapper">
-                  <label for="input-from-second">From</label>
-                  <input type="time" name="input-from-second" id="input-from-second">
-                </div>
-
-                <div class="input-fields-wrapper">
-                  <label for="input-to-second">To</label>
-                  <input type="time" name="input-to-second" id="input-to-second">
-                </div>
+              <div class="input-fields-wrapper">
+                <label for="input-from-first">From</label>
+                <input type="time" name="input-from-first" id="input-from-first">
               </div>
-            </fieldset>
+
+              <div class="input-fields-wrapper">
+                <label for="input-to-first">To</label>
+                <input type="time" name="input-to-first" id="input-to-first">
+              </div>
+            </div>
+
+            <h2>Second mentorship</h2>
+            <div class="cols-3">
+              <div class="input-fields-wrapper">
+                <label for="input-date-second">Date <span>(DD/MM/YYYY)</span></label>
+                <input type="date" name="input-date-second" id="input-date-second">
+              </div>
+
+              <div class="input-fields-wrapper">
+                <label for="input-from-second">From</label>
+                <input type="time" name="input-from-second" id="input-from-second">
+              </div>
+
+              <div class="input-fields-wrapper">
+                <label for="input-to-second">To</label>
+                <input type="time" name="input-to-second" id="input-to-second">
+              </div>
+            </div>
           </fieldset>
         </div>
         <footer>
